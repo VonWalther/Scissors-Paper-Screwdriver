@@ -11,6 +11,8 @@
 		C33B590E2680F2A40075600B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B590D2680F2A40075600B /* ContentView.swift */; };
 		C33B59102680F2AE0075600B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33B590F2680F2AE0075600B /* Assets.xcassets */; };
 		C33B59132680F2AE0075600B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C33B59122680F2AE0075600B /* Preview Assets.xcassets */; };
+		C33B592C26815A260075600B /* Scissors_Paper_Screwdriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B592B26815A260075600B /* Scissors_Paper_Screwdriver.swift */; };
+		C37E5EC22682B36F0040370E /* GameChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37E5EC12682B36F0040370E /* GameChoiceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,9 @@
 		C33B590F2680F2AE0075600B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C33B59122680F2AE0075600B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C33B59142680F2AE0075600B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C33B5920268155940075600B /* ClassTestII.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ClassTestII.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		C33B592B26815A260075600B /* Scissors_Paper_Screwdriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scissors_Paper_Screwdriver.swift; sourceTree = "<group>"; };
+		C37E5EC12682B36F0040370E /* GameChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameChoiceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +57,13 @@
 		C33B590A2680F2A40075600B /* Scissors, Paper; Screwdriver */ = {
 			isa = PBXGroup;
 			children = (
-				C33B590B2680F2A40075600B /* Scissors__Paper__ScrewdriverApp.swift */,
-				C33B590D2680F2A40075600B /* ContentView.swift */,
-				C33B590F2680F2AE0075600B /* Assets.xcassets */,
+				C33B592B26815A260075600B /* Scissors_Paper_Screwdriver.swift */,
+				C33B5920268155940075600B /* ClassTestII.playground */,
 				C33B59142680F2AE0075600B /* Info.plist */,
+				C33B590D2680F2A40075600B /* ContentView.swift */,
+				C37E5EC12682B36F0040370E /* GameChoiceView.swift */,
+				C33B590B2680F2A40075600B /* Scissors__Paper__ScrewdriverApp.swift */,
+				C33B590F2680F2AE0075600B /* Assets.xcassets */,
 				C33B59112680F2AE0075600B /* Preview Content */,
 			);
 			path = "Scissors, Paper; Screwdriver";
@@ -140,6 +148,8 @@
 			files = (
 				C33B590E2680F2A40075600B /* ContentView.swift in Sources */,
 				C33B590C2680F2A40075600B /* Scissors__Paper__ScrewdriverApp.swift in Sources */,
+				C33B592C26815A260075600B /* Scissors_Paper_Screwdriver.swift in Sources */,
+				C37E5EC22682B36F0040370E /* GameChoiceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
